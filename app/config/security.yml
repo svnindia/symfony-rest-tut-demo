@@ -50,7 +50,7 @@ security:
             anonymous: true
 
         api:
-            pattern:    ^/api
+            pattern:    ^/api/v1
             fos_oauth:  true
             stateless:  true
 
